@@ -1,0 +1,198 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+header{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 20px 5px;
+    margin-bottom: 10px;
+}
+
+header h2{
+    text-transform: uppercase;
+    display: inline;
+    color: #FF8050;
+}
+
+header nav{
+    float: right;
+}
+
+header nav li{
+    display: inline-block;
+    background-color: #FF7F50;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a i{
+    margin-right: 7px;
+}
+
+main .header{
+background-image: url("../Requirements-and-Resources/img/background-header.jpg");
+  background-color: #cccccc;
+  height: 750px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+main .header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+main .header-text{
+  font-size: 1.3em;
+  text-align: center;
+  color: white;
+  padding-top: 250px;
+  position: relative;
+  z-index: 1;
+  width: 800px;
+  margin: 0 auto;
+}
+
+main .header-text h1{
+    width: 600px;
+    margin: 0 auto;
+    text-shadow: 2px 2px #000;
+}
+
+main .prefer{
+    background-color: #FF7F50;
+    height: 350px;
+}
+
+main .prefer-text{
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+main .prefer-text h1{
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+main .prefer-text p{
+    width: 750px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+
+main .prefer-text a{
+    background: #fff;
+    color: #FF7F50;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+main .about{
+    padding-top: 60px;
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    color: #373737;
+}
+
+main .about h1{
+    margin-bottom: 30px;
+}
+
+main .about .about-info{
+    width: 250px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+main .about .about-info img{
+    width: 80px;
+}
+
+main .about .about-info h2{
+    margin: 10px 0;
+}
+
+main .gallery{
+    width: 1080px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    vertical-align: super;
+}
+
+main .gallery ul{
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+main .gallery ul li{
+    display: inline-block;
+}
+
+main .gallery ul li img{
+    border: 0.4rem solid black;
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+    padding: 20px;
+}
+
+footer{
+    background-color: #FF7F50;
+    padding: 30px;
+    margin-top: 10px;
+    color: #fff;
+}
+
+footer .footer-text{
+    width: 520px;
+    margin: 0 auto;
+}
+
+footer .footer-text p{
+    display: inline;
+}
+
+footer .social-media{
+    float: right;
+    display: inline-block;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul li i{
+    font-size: 1.3em;
+    border: 1px solid #fff;
+    padding: 10px;
+    width: 20px;
+    border-radius: 50%;
+}

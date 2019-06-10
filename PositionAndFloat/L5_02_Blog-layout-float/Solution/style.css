@@ -1,0 +1,87 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    border-bottom: 2px solid #000;
+    padding: 20px 20px 0 20px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header p.site-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    display: inline-block;
+}
+
+main{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+main article{
+    width: 830px;
+    float: left;
+}
+
+main article h1, main aside h3{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+main article .level-one img{
+    float: right;
+    border: 2px solid #000;
+    padding: 15px;
+    margin: 0 0 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+main article .level-two blockquote{
+    float: right;
+    width: 500px;
+    color: #4F677D;
+    border-left: 2px solid #DFDFDF;
+    padding-left: 20px;
+    height: 150px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+main article .level-two blockquote span{
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+main article .level-two img{
+    float: left;
+    margin-right: 40px;
+    border: 2px solid #000;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+
+main aside{
+    float: right;
+}
+
+main aside ul li{
+    list-style-type: square;
+}
+
+main aside ul li a{
+    color: #4EA164;
+    text-decoration: none;
+}

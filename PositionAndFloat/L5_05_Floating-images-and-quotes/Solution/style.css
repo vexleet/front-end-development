@@ -1,0 +1,67 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    border-bottom: 2px solid #000;
+    padding: 20px 20px 0 20px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header p.site-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    display: inline-block;
+}
+
+main article{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+main article h2{
+    font-family: Georgia, serif;
+}
+
+main article .level-one img{
+    float: right;
+    border: 2px solid #000;
+    padding: 15px;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+main article .level-two blockquote{
+    float: right;
+    width: 500px;
+    color: #4F677D;
+    border-left: 2px solid #DFDFDF;
+    padding-left: 20px;
+    height: 150px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+main article .level-two blockquote span{
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+main article .level-two-two img{
+    float: left;
+    margin-right: 40px;
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}

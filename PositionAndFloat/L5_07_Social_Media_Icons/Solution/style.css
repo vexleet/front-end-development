@@ -1,0 +1,44 @@
+ul{
+    padding: 50px;
+    display: inline-block;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+    font-size: 2em;
+}
+
+ul li a{
+    color: #262626;
+    background-color: #EEEEEE;
+    padding: 15px 0 15px 0;
+    border-radius: 50%;
+    width: 100px;
+}
+
+ul li a i{
+    text-align: center;
+    width: 65px;
+}
+
+a:hover .fa-facebook-square{
+    color: #3B5998;
+}
+
+a:hover .fa-twitter{
+    color: #00ACED;
+}
+
+a:hover .fa-google-plus{
+    color: #DD4C3A
+}
+
+a:hover .fa-linkedin{
+    color: #007BB6;
+}
+
+a:hover .fa-instagram{
+    color: #5C91B5;
+}

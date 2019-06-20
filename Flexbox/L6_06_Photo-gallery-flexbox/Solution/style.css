@@ -1,0 +1,21 @@
+body, ul, li{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    align-content: space-around;
+    justify-content: space-between;
+}
+
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul li{
+    margin: 20px 0;
+    border: 6px solid #000;
+    padding: 30px;
+    height: 420px;
+}

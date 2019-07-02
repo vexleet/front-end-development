@@ -1,0 +1,208 @@
+html{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header{
+    border-bottom: 2px solid #000;
+    padding: 20px 20px 0 20px;
+    width: 980px;
+    margin: 0 auto;
+}
+
+header p.site-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    display: inline-block;
+}
+
+header .menu{
+    display: none;
+}
+
+header nav{
+    float: right;
+}
+
+header ul{
+    background-color: #fff;
+    padding: 10px 10px;
+}
+
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #2D2D2D;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+header ul li:nth-child(5){
+    margin-right: 0;
+}
+
+main{
+    width: 980px;
+    margin: 0 auto;
+    display: flex;
+}
+
+main article{
+    width: 830px;
+    margin-right: 30px;
+}
+
+main article h1, main aside h3{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+main article .level-one img{
+    float: right;
+    border: 2px solid #000;
+    padding: 15px;
+    margin: 0 0 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+main article .level-two blockquote{
+    width: 500px;
+    color: #4F677D;
+    border-left: 2px solid #DFDFDF;
+    padding-left: 20px;
+    font-style: italic;
+    font-family: Georgia, serif;
+}
+
+main article .level-two blockquote span{
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+}
+
+main article .level-two img{
+    float: left;
+    margin-right: 40px;
+    border: 2px solid #000;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    background-color: rgb(255, 255, 255);
+}
+
+main aside ul li{
+    list-style-type: square;
+}
+
+main aside ul li a{
+    color:rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 1024px){
+    header{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    main{
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 980px){
+    header{
+        width: 700px;
+        margin: 0 auto;
+        border: none;
+    }
+
+    header p.site-title{
+        font-size: 3em;
+    }
+
+    header nav{
+        float: none;
+    }
+
+    header ul{
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        padding: 10px 10px 0 10px;
+    }
+
+    header ul li{
+        display: block;
+        width: 96%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    header .menu{
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: 1.5em;
+    }
+
+    main{
+        width: 700px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    main article{
+        width: 700px;
+    }
+}
+
+@media (max-width: 410px){
+    header{
+        width: 250px;
+        margin: 0 auto;
+        border: none;
+        text-align: center;
+    }
+
+    header p.site-title{
+        font-size: 2em;
+    }
+
+    header ul li{
+        width: 91%;
+        font-size: 0.7em;
+        text-align: left;
+    }
+
+    header .menu{
+        font-size: 1em;
+    }
+
+    main{
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    main article{
+        width: 250px;
+    }
+
+    main article .level-two blockquote{
+        width: 180px;
+    }
+}

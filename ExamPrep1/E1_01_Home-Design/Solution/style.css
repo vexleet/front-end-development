@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+
+body{
+    font-family: 'Courgette', cursive;
+    font-size: 20px;
+    background-color: #F5F5F5;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0 20px 0;
+    width: 400px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-size: 3.2em;
+}
+
+header h2{
+    font-size: 1.7em;
+    text-align: right;
+    color: #CB2027;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+main{
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 433px;
+}
+
+.card{
+    margin: 0 auto;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.card .image{
+    height: 230px;
+}
+
+.card .image img{
+    width: 350px;
+    border-radius: 5px 5px 0 0;
+}
+
+.text{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    height: 160px;
+}
+
+.text h3{
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.text hr{
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid #E3888C;
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+.text p{
+    font-size: 0.75em;
+    margin-bottom: 20px;
+    height: 45px;
+}
+
+.text a{
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.text a i{
+    color: #CB2027;
+    margin-left: 5px;
+}

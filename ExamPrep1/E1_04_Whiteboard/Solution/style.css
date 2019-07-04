@@ -1,0 +1,195 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: PT Sans, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(37, 24, 24, 0.2) ), url(../Requirements-and-Resources//image/computer-main.jpg) no-repeat center center;
+    background-size: cover;
+    text-shadow: 2px 2px 5px rgb(80, 79, 79);
+}
+
+nav{
+    padding: 20px 0;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 20px;
+    color: #fff;
+}
+
+nav p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.header-title{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding: 6em 0;
+}
+
+.header-title h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.header-title p{
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto 50px auto;
+}
+
+.header-title button{
+    border: none;
+    background-color: #00D08E;
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    border: 3px solid #00D08E;
+}
+
+.header-title button:hover{
+    cursor: pointer;
+    background: inherit;
+    border: 3px solid #fff;
+
+}
+
+.header-title a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+}
+
+.introduction .items{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.introduction .items > li{
+    width: 50%;
+    list-style-type: none;
+    height: 433px;
+}
+
+.introduction .items > li img{
+    width: 100%;
+    height: 433px;
+}
+
+.introduction .items > li:nth-child(2),
+.introduction .items > li:nth-child(3){
+    padding: 50px 70px;
+}
+
+.introduction .items > li:nth-child(3){
+    text-align: center;
+}
+
+.introduction .items > li h2{
+    font-size: 30px;
+    color: #20252D;
+}
+
+.introduction .items > li p{
+    color: #2E333A;
+    font-size: 22px;
+    width: 75%;
+    margin: 10px 0 20px 0;
+}
+
+
+.introduction .items > li ul li{
+    font-size: 20px;
+    padding-top: 15px;
+    list-style-type: none;
+}
+
+.introduction .items > li ul li i{
+    color: #00D08E;
+    margin-right: 20px;
+}
+
+.introduction .items > li ul li img{
+    width: 70px;
+    height: 70px;
+}
+
+.introduction .items > li ul:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.introduction .items > li ul:nth-child(2) li{
+    width: 120px;
+    text-align: center;
+}
+
+.introduction .items > li ul:nth-child(2) li p{
+    width: 100%;
+    color: #2BD391;
+    font-weight: 600;
+}
+
+.questions{
+    background-color: #B2F1DD;
+    padding: 40px 80px 20px 80px;
+    text-align: center;
+}
+
+.questions ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.questions ul li{
+    list-style-type: none;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: #21262E;
+}
+
+.questions ul li h3{
+    font-size: 22px;
+}
+
+.questions ul li p{
+    font-size: 18px;
+}
+
+.questions > p{
+    margin-top: 20px;
+}
+
+.questions > p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #08003C;
+}

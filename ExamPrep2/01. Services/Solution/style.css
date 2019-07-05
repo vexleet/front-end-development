@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.services h1{
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #454545;
+}
+
+.services hr{
+    width: 7%;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 2.5px solid #34B1C4;
+    padding: 0;
+    margin: 8px 0 12px 0;
+}
+
+.services p{
+    color: #4B4545;
+}
+
+.services ul{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.services ul li{
+    list-style-type: none;
+    width: 30%;
+    text-align: center;
+    border: 1px solid #EDEDED;
+}
+
+.services ul li h1{
+    background-color: #333333;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.services ul li:nth-child(even) h1{
+    background-color: #1996A9;
+}
+
+.services ul li h2{
+    color: #333333;
+    background-color: #F6F6F6;
+    padding: 10px 0;
+    font-size: 19px;
+}
+
+.services ul li p{
+    padding: 10px 0;
+    border-bottom: 1px solid #EDEDED;
+    font-size: 13px;
+}
+
+.services ul li #description{
+    font-size: 12px;
+}
+
+.services ul li button{
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+}
+
+.services ul li button:hover{
+    cursor: pointer;
+}

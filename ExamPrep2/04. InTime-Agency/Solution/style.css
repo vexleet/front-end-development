@@ -1,0 +1,277 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+header nav{
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav p{
+    font-size: 25px;
+    color: #4C565E;
+}
+
+header nav p span{
+    color: #21A2BA;
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 1em;
+}
+
+header nav ul li a{
+    color: #4C565E;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-title{
+    background: url('../images/slide2.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 250px 0 150px 230px;
+}
+
+.header-title h1{
+    font-weight: 100;
+}
+
+.header-title .text{
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 30%;
+    background-blend-mode: lighten;
+    padding: 15px;
+}
+
+.header-title .text h1{
+    font-size: 30px;
+}
+
+.header-title button{
+    background: #008CBA;
+    color: #fff;
+    border: none;
+    padding: 8px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.welcome{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.welcome h1{
+    color: #454545;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.welcome hr{
+    width: 10%;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 3px solid #38B3C5;
+    margin: 0.5em auto; 
+    padding: 0;
+}
+
+.welcome p{
+    color: #454545;
+    font-size: 17.5px;
+}
+
+.welcome button{
+    background: #454545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.services{
+    background: #EEF0F1;
+    margin-top: 30px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.services .text{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.services .text h1{
+    font-size: 35px;
+    color: #454545;
+    font-weight: 100;
+}
+
+.services .text hr{
+    width: 10%;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 3px solid #454545;
+    margin: 0.5em auto 1em auto; 
+    padding: 0;
+}
+
+.services .text ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.services .text ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.services .text ul li .li-text{
+    background: #fff;
+    padding: 0 15px 30px 15px;
+}
+
+.services .text ul li img{
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.li-text h2{
+    font-weight: 100;
+    color: #454545;
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+}
+
+.li-text p{
+    font-size: 17px;
+    color: #454545;
+}
+
+.li-text button{
+    background: #454545;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.newsletter{
+    background: #393F43;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.newsletter .text{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.newsletter .text h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.newsletter .text hr{
+    width: 10%;
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 3px solid #fff;
+    margin: 0.5em auto 1em auto; 
+    padding: 0;
+}
+
+.newsletter .text p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.newsletter .text input{
+    background: #545A5E;
+    border: none;
+    font-style: italic;
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 35%;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.newsletter .text button{
+    color: #fff;
+    background: #6BBFFF;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.main-footer{
+    background: #2F3539;
+    color: #fff;
+    padding: 30px 0 40px 0;
+}
+
+.main-footer .text{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer .header{
+    font-size: 20px;
+}
+
+.main-footer ul li,
+.main-footer ul ol li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.main-footer ul ol li{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: #262B2F;
+    color: #fff;
+}
+
+footer p span{
+    color: #1966A2;
+}

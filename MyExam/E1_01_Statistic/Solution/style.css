@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrapper{
+    width: 85%;
+    background: linear-gradient(to top, rgb(40, 68, 111, 0.9), rgba(4, 32, 76, 0.8))
+    , url(./images/image.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 300px;
+    padding: 10px;
+}
+
+.wrapper span i{
+    float: right;
+    font-size: 30px;
+    color: #fff;
+}
+
+.wrapper span:after{
+    content: '';
+    display: block;
+    clear: both;    
+}
+
+.wrapper ul{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wrapper ul li{
+    list-style-type: none;
+}
+
+.wrapper ul li i{
+    font-size: 45px;
+    color: #EC8421;
+    margin-bottom: 20px;
+}
+
+.wrapper ul li h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.wrapper ul li p{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}

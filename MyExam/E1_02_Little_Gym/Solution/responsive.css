@@ -1,0 +1,248 @@
+@media (max-width: 1024px){
+    body{
+        font-size: 14px;
+    }
+
+    .entry-header{
+        background-position: center;
+        border-radius: 0;
+    }
+
+    .site-header-logo{
+        font-size: 25px;
+    }
+
+    .site-main{
+        margin: 0;
+    }
+
+    .entry-header-description {
+        font-size: 1.5rem;
+    }
+
+    .entry-header-title{
+        font-size: 3.8rem;
+    }
+
+    .entry-header-title::first-letter{
+        font-size: 6.7rem;
+    }
+
+    .site-logo:not(:last-child){
+        margin-right: 1.5rem;
+    }
+
+    .site-logo{
+        font-size: 0.9rem;
+    }
+
+    .site-logo img{
+        width: 5.5rem;
+    }
+    
+    .entry-subtitle{
+        font-size: 1rem;
+    }
+
+    .entry-title{
+        font-size: 1.5rem;
+    }
+
+    .entry-description{
+        font-size: 0.7rem;
+    }
+
+    .button{
+        padding: 0.6rem 1rem;
+    }
+
+    .site-information{
+        padding: 10px;
+        height: 275px;
+    }
+
+    .site-form{
+        margin-top: 1rem;
+    }
+
+    .site-form label{
+        font-size: 1.1rem;
+    }
+
+    form{
+        max-width: 18rem;
+    }
+
+    .site-form input{
+        padding: 0.6rem 0.5rem;
+    }
+
+    .site-form button{
+        padding: 0.5rem 2rem;
+    }
+
+    .site-post h2 {
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+
+    .site-post p {
+        font-size: 0.7rem;
+    }
+
+    .site-footer{
+        padding: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .site-footer a{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px){
+    .site-navigation ul li{
+        display: none;
+    }
+
+    .site-header-logo{
+        font-size: 16px;
+    }
+
+    .entry-header-title{
+        font-size: 2.8rem;
+    }
+
+    .entry-header-description{
+        font-size: 1rem;
+        top: 25px;
+        left: 60px;
+    }
+
+    .entry-header-title::first-letter{
+        font-size: 4.7rem;
+    }
+
+    .entry-header{
+        background-position: center top;
+        padding: 4rem 0 4rem 0;
+    }
+
+    .button{
+        font-size: 0.6rem;
+    }
+
+    .site-logo{
+        font-size: 0.75rem;
+    }
+
+    .site-logo img{
+        height: 5rem;
+    }
+
+    .site-logos-container {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .site-logo{
+        flex: 1 0 30%;
+    }
+
+    .site-logo:not(:last-child) {
+        margin-right: 0;
+    }
+    
+    .site-information-image{
+        display: none;
+    }
+
+    .site-information{
+        padding: 0;
+        height: auto;
+    }
+
+    .site-information-text{
+        flex: 0%;
+        padding: 1.5rem 2rem;
+        text-align: center;
+    }
+
+    .entry-description{
+        margin: 0 auto;
+        font-size: 0.8rem;
+    }
+
+    .entry-title{
+        font-size: 1.3rem;
+    }
+
+    .entry-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .site-form form > p{
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .site-form button{
+        display: inline-block;
+    }
+
+    .site-form{
+        padding: 1.5rem 2rem;
+    }
+
+    form{
+        padding-top: 1rem;
+        max-width: 15rem;
+    }
+
+    .site-form label {
+        font-size: 0.8rem;
+    }
+    
+    .site-form input {
+        padding: 0.4rem 0.5rem;
+    }
+
+    .site-blog-container{
+        margin-top: 0;
+        padding: 1rem 2rem;
+    }
+
+    .site-blog-container h2 {
+        margin-bottom: 0.5rem;
+    }
+
+    .site-posts{
+        flex-direction: column;
+    }
+
+    .site-post{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .site-post:not(:first-child){
+        margin-top: 20px;
+    }
+
+    .site-post p{
+        font-size: 0.8rem;
+        padding-top: 0rem;
+    }
+
+    .site-blog-container h2{
+        margin-bottom: 0.5rem;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}

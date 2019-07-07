@@ -1,0 +1,188 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background: url(./image/image.jpg) no-repeat center;
+    background-size: cover;
+    height: 500px;
+    height: 750px;
+}
+
+.header-title{
+    padding: 30px;
+}
+
+.header-title .company-name{
+    width: 200px;
+    box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.75);
+    padding: 30px 10px;
+}
+
+.header-title .company-name .text{
+    width: 65%;
+    color: #363434;
+}
+
+.company-name .text h1{
+    font-size: 35px;
+}
+
+.company-name .text hr{
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 2px solid #fff;
+    margin: 0.5rem 0 1rem 0; 
+    padding: 0; 
+}
+
+.featured-projects{
+    width: 250px;
+    text-align: right;
+    float: right;
+    padding: 30px 15px 20px 15px;
+    background: linear-gradient(90deg, rgba(159,149,141,1) 0%, rgba(219,218,218,1) 100%);
+    text-shadow: 2px 2px 7px #000000;
+ }
+
+.featured-projects i{
+    color: #89817E;
+    font-size: 25px;
+}
+
+.featured-projects p{
+    color: #fff;
+    font-size: 15px;
+}
+
+main{
+    display: flex;
+}
+
+main article{
+    background: #F2F0F3;
+    padding-bottom: 30px;
+}
+
+.services{
+    padding: 50px;
+    color: #333333;
+}
+
+.services h1{
+    font-size: 40px;
+}
+
+.services ul{
+    padding-right: 10px;
+}
+
+.services ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.services ul li i{
+    margin-right: 10px;
+}
+
+.services ul li span{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.contact{
+    color: #333333;
+}
+
+.contact h1{
+    padding: 50px 0 0 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.contact hr { 
+    display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 3px solid #333333;
+    margin-bottom: 1em; 
+    padding: 0; 
+}
+
+.contact ul{
+    padding-left: 50px;
+}
+
+.contact ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.contact ul li span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contact form{
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.contact input{
+    padding: 12px 10px;
+    background: #BAB1AD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.contact button{
+    padding: 12px 10px;
+    color: #fff;
+    background: #67784D;
+    border-radius: 5px;
+}
+
+main aside{
+    background: #BAB1AD;
+    flex-basis: 80%;
+    padding: 80px 20px;
+}
+
+main aside ul li{
+    list-style-type: none;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+main aside ul li .header{
+    color: #fff;
+    font-size: 55px;
+}
+
+main aside ul li:not(:last-child){
+    margin-bottom: 90px;
+}

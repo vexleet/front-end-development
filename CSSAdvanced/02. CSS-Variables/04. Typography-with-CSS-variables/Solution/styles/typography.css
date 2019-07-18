@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700|Nanum+Gothic&display=swap');
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font: var(--font-size-body, 14px)/1.5 "Nanum Gothic", Georgia, serif;
+    padding: 2em;
+}
+
+@media ( min-width: 700px ) {
+    html { font-size: var(--font-size-body-larger, 16px); }
+}
+
+@media ( min-width: 1600px ) {
+    html { font-size: var(--font-size-body-huge, 18px); }
+}
+
+body, table, form, select, option, input, textarea {
+    font: inherit;
+    background: var(--color-body-bgrd, #FFF);
+    color: var(--color-body-text, #000);
+}
+
+.site-title,
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    font-family: Merriweather, serif;
+    font-family: "Muli", sans-serif;
+}
+
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.0em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.0em; }
+
+a {
+    text-decoration: none;
+    color: var(--color-link-default, #0A0);
+}
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+ul li{
+    list-style-type: disc;
+}
+
+ul, ol {
+    padding-left: 2em;
+}

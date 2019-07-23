@@ -1,0 +1,71 @@
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+ul{
+    width: 10em;
+    margin: 10em auto;
+}
+
+ul li{
+    opacity: 0;
+    list-style-type: none;
+    font-size: 20px;
+    margin-bottom: 1em;
+
+    animation: slideIn 0.3s ease-in;
+    animation-fill-mode: forwards;
+}
+
+ul li:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+ul li:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+ul li:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+ul li:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+ul li:nth-child(5) {
+    animation-delay: 1s;
+}
+
+ul li:nth-child(6) {
+    animation-delay: 1.2s;
+}
+
+ul li:nth-child(7) {
+    animation-delay: 1.4s;
+}
+
+ul li i{
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+
+@keyframes slideIn{
+    from {
+        transform: translateX(-2em);
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

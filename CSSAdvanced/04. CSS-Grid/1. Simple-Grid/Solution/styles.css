@@ -1,0 +1,20 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.container{
+    height: 20vh;
+    display: grid;  
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.item{
+    grid-column: span 2;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}

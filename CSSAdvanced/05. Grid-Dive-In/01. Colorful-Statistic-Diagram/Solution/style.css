@@ -1,0 +1,54 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: repeat(11, 20px);
+    grid-template-areas: 
+    ". . . . item5 . ."
+    ". . . . item5 . ."
+    ". . . . item5 . ."
+    ". . . . item5 item6 ."
+    ". . . item4 item5 item6 ."
+    ". . . item4 item5 item6 ."
+    ". . . item4 item5 item6 ."
+    ". item2 . item4 item5 item6 ."
+    ". item2 . item4 item5 item6 ."
+    ". item2 item3 item4 item5 item6 ."
+    "item1 item2 item3 item4 item5 item6 item7";
+    justify-content: center;
+}
+
+.item1 { background: #7FFFD4 }
+.item2 { background: #FFFF00 }
+.item3 { background: #FFC0CB }
+.item4 { background: #62E3E7 }
+.item5 { background: #CBF382 }
+.item6 { background: #7718CF }
+.item7 { background: #F78D15 }
+
+.item1{
+    grid-area: item1;
+}
+
+.item2{
+    grid-area: item2;    
+}
+
+.item3{
+    grid-area: item3;
+}
+
+.item4{
+    grid-area: item4;
+}
+
+.item5{
+    grid-area: item5;
+}
+
+.item6{
+    grid-area: item6;
+}
+
+.item7{
+    grid-area: item7;
+}
